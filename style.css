@@ -1,0 +1,202 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(#B8E7FA, #E6E6FA);
+}
+#navigation{
+    background-color: #FFFFFF99;
+    border: 1px solid #C6DBFF;
+}
+#nav-content{
+    margin: 24px auto;
+    width:87.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    padding: 17px 24px;
+    border: 3px solid #ffa6001c;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #FFA500,#FFD447);
+    color: #0D1321;
+    font-weight: 600px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px rgba(122, 100, 100, 0.473);
+}
+.btn:hover{
+    cursor:grab;
+}
+
+.nav-text{
+    width: 234px;
+    height: 42px;
+}
+.nav-text h3{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+#banner{
+    box-sizing: border-box;
+    width: 87.5%;
+    margin: 100px auto;
+    padding: 40px 60px;
+    background-color: #E6EDF9;
+    border-radius: 16px;
+    text-align: center;
+}
+.banner-content,.banner-button{
+    margin-top: 32px;
+}
+
+.quote q{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+.banner-text p{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0d1321B3;
+}
+
+
+
+#blog{
+    width: 87.5%;
+    margin: 100px auto;
+}
+.blog-header{
+    text-align: center;
+}
+.blog-header h3{
+    font-weight: bolder;
+    font-size: 32px;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.blog-header p{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0d1321B3;
+}
+.blog-content{
+    margin-top: 48px;
+    background-color: #E6EDF9;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.blog-text h4{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.blog-text p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #0d1321B3;
+    margin-bottom: 32px;
+}
+
+
+.inspiration{
+    margin: 100px auto;
+    width: 76.39%;
+}
+.inspirational-message{
+    margin-bottom: 48px;
+    text-align: center;
+
+}
+.inspirational-message h3{
+    font-weight: bolder;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.inspirational-message p{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0d1321B3;
+    margin-bottom: 32px;
+}
+.inpirational-video{
+    padding: 32px;
+}
+.inpirational-video iframe{
+    width: 100%;
+    height: 500px;
+}
+
+#target{
+    width:87.5%;
+    margin:100px auto;
+}
+.target-header{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.target-header h3{
+    font-weight: bolder;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.target-header p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #0d1321B3;
+    margin-bottom: 32px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+.card{
+    width: 20%;
+    height: 200px;
+    border-radius: 16px;
+    padding: 40px;
+    gap:30px;
+    align-items: center;
+    background-image: linear-gradient(#E6EDF9,#9DE5FF);
+    box-shadow: 2px 2px 30px rgba(122, 100, 100, 0.514);
+}
+.card img{
+    margin-bottom: 24px;
+}
+.card h2{
+    margin-bottom: 16px;
+}
+#footer{
+    background-color: #FFFFFF99;
+    margin-top: 100px;
+    padding: 32px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    color:#0D1321;
+    font-size: 20px;
+    font-weight:600;
+}
+.footer-logo{
+    display: flex;
+    gap: 24px;
+}
